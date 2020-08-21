@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js4 </title>
+    <script src="app.js"></script>
+</head>
+<body>
+<a id= 'link' href="#" onclick="showlink()">Please Click Here</a> 
+
+<div>
+<a href="#" onclick="showMesg()"><img src="download.jpg" alt="" srcset=""></a>    
+</div>
+<div> 
+<table id="myTable">
+    
+    <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Marks</th>
+
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>Maria Anders</td>
+      <td>56</td>
+      <th>
+        <input type="button" value="Delete "
+        onclick="deleteRow(this)">
+        </th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Francisco Chang</td>
+      <td>90</td>
+      <th>
+        <input type="button" value="Delete"
+        onclick="deleteRow(this)">
+      </th>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Roland Mendel</td>
+      <td>99</td>
+      <th>
+        <input type="button" value="Delete"
+        onclick="deleteRow(this)">
+        </th>
+    
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Helen Bennett</td>
+      <td>20</td>
+      <th>
+        <input type="button" value="Delete"
+        onclick="deleteRow(this)"></th>
+    </tr>
+</table>
+</div>
+
+<img id="imgs"  onmouseover="rollover(this)"  onmouseout="mouseaway(this)"src="flower1.jpg" alt="" srcset="">
+<button type="button" onClick="onClickincre()">Click me To Increse</button>
+<button type="button" onClick="onClickdecre()">Click me To Decrese</button>
+<p>Clicks: <a id="clicks">0</a></p>
+<h2>SUBBMIT FORM</h2>
+<form name="form1">
+<p><b>Name:</b> <input TYPE="TEXT" SIZE="20" NAME="yourname">
+</p>
+<p><b>Address:</b> <input TYPE="TEXT" SIZE="30" NAME="address">
+</p>
+<p><b>Phone: </b> <input TYPE="TEXT" SIZE="15" NAME="phone">
+</p>
+<p><input TYPE="BUTTON" VALUE="SUBBMIT" onClick="display();"></p>
+</form>
+</div>
+    </div>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptate cupiditate exercitationem, recusandae quis laboriosam itaque perferendis consectetur cumque dolorum quae delectus animi ipsam deserunt
+      deleniti amet! Aliquam, neque aspernatur. <span id="dots">.....</span> <span id="more" style="display: none;">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+      Sed dapibus pulvinar nibh tempor porta.</span></p>
+     <button onclick="readmore()" id="myBtn"> ReadMore</button>
+
+     <div> 
+      <table id="MyTable">
+          
+          <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Marks</th>
+      
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>Maria Anders</td>
+            <td>56</td>
+            <th>
+              <input type="button" value="Delete "
+              onclick="deleteRow(this)">
+              </th>
+              <th>
+                <input type="button" value="Edit"
+                onclick="deleteRow(this)">
+                </th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Francisco Chang</td>
+            <td>90</td>
+            <th>
+              <input type="button" value="Delete"
+              onclick="deleteRow(this)">
+            </th>
+            <th>
+              <input type="button" value="Edit"
+              onclick="deleteRow(this)">
+              </th>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Roland Mendel</td>
+            <td>99</td>
+            <th>
+              <input type="button" value="Delete"
+              onclick="deleteRow(this)">
+              </th>
+              <th>
+                <input type="button" value="Edit"
+                onclick="deleteRow(this)">
+                </th>
+          
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Helen Bennett</td>
+            <td>20</td>
+            <th>
+              <input type="button" value="Delete"
+              onclick="deleteRow(this)"></th>
+              <th>
+                <input type="button" value="Edit"
+                onclick="deleteRow(this)">
+                </th>
+          </tr>
+      </table>
+      </div>
+
+      <div>
+        <h1> DOM </h1>
+        <div id=”form-content” class=”content”>
+        <label for=”first-name”>First Name</label>
+        <input type=”text” id=”first-name” />
+        <label for=”last-name”>Last Name</label>
+        <input type=”text” id=”last-name” />
+        <label for=”email”>Email</label>
+        <input type=”text” id=”email” />
+        </div>
+        <div id=”main-content” class=”content”>
+        <p class=”render”> First Name : Alex</p>
+        <p class=”render” id=”lastName”>Last Name: Bank</p>
+        <p class=”render”> Email : alexbank@example.com</p>
+        <p class=”render”> Country : Pakistan </p>
+        <p class=”render”> contact : +92 300 1234567</p>
+        </div>
+        </div>
+        
+</body> 
+</html>
