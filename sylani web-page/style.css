@@ -1,0 +1,149 @@
+/* Header Section */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+.icons{
+   list-style: none;
+display: flex;
+margin-left: 2px;
+}
+
+.bg-color{
+   background-color:  #316DC3;
+   
+}
+.header-top
+{
+    padding: 5px 0px;
+}
+.fa{
+    color: white;
+
+}
+.fa:hover{
+    background-color: rgb(135, 183, 250);
+}
+
+    .navbar-toggler-icon{
+        width: 20px;
+    height: 3px;
+    margin: 3.5px 20px 0;
+    float: right;
+    background: #777;
+    }
+.list-inline{
+    display: flex;
+}
+.inner{
+    display: inline-block;
+}
+
+.navbar{
+ 
+    background-color: rgb(255, 255, 255);
+   
+
+}
+.navbar a{
+    color: black;
+    font-size: 0.9rem;
+    margin: 9px;
+    border-radius: 15px;
+}
+.navbar a:hover{
+    background-color:  #316DC3;
+    color: white;
+}
+
+
+.btn{
+    padding: 1px;
+    font-size: 0.8rem;
+    border-radius: 0px;
+    margin: 1px;
+    font-weight: 10;
+}
+
+/* -----------------------------info section--------------------------------------- */
+
+.left-heading-color{
+    color: #427900 !important;;
+}
+.title-icon::before {
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+color: greenyellow;}
+    .title-icon::after {
+        content: "";
+        height: 2px;
+        left: 10px;
+        position: absolute;
+        top: 30px;
+        width: 36px;}
+        .ku{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .bg-theme{
+            background-color:  rgb(25, 71, 136);
+        }
+
+        /* ...........................what we are doing................ */
+
+    .box-shade{    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+/*...................... upcoimgg projects............................................ .*/
+.body-css{
+background-color: rgb(251, 251, 251);
+border: 1px solid  rgb(231, 231, 231);
+padding: 15px;
+margin-bottom: 20px;
+
+}
+.new-projects h4{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #316DC3;
+    padding-left: 60px;
+    font-size: 1rem;
+}
+
+/* .......................gallery section................................................. */
+
+.image_design:hover{ 
+    background-color:rgb(240, 234, 234); 
+    opacity: 20%;
+border: 12px solid rgb(226, 221, 221);}
+
+
+    .gallery_image {
+        margin: 30px;
+        max-width: 100%;
+        width: 300px;
+    }
+    /* ......................footer_section............................................ */
+    .dark-color{
+        background-color: rgb(36, 35, 35);
+    }
+    .para-color p{
+color: honeydew;
+    }
+
+    .copyright{
+        background-color:  #316DC3;
+        color: #fff;
+    }
